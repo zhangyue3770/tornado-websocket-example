@@ -1,6 +1,6 @@
 FROM ubuntu
 
-MAINTAINER Hiroaki Sano <hiroaki.sano.9stories@gmail.com>
+MAINTAINER zhang
 
 RUN apt-get update -y && apt-get install git python python-pip -y
 RUN cd /tmp \
